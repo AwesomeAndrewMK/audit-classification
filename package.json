@@ -1,0 +1,17 @@
+{
+  "name": "audit-classification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start knn": "node index.js",
+    "start nn": "node nn.js"
+  },
+  "author": "Andrii Kuznietsov",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "csv-parser": "^3.2.0",
+    "ml-knn": "^3.0.0"
+  }
+}
